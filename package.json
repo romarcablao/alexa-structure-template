@@ -1,0 +1,29 @@
+{
+  "name": "alexa-structure-template",
+  "version": "1.0.0",
+  "description": "How I structure my custom Alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint --fix core intents index.js"
+  },
+  "keywords": [
+    "alexa",
+    "ask-sdk",
+    "template"
+  ],
+  "author": "Romar Cablao <romarcablao@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk": "^2.7.0",
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "graphql-request": "^1.8.2",
+    "http": "0.0.0",
+    "mysql2": "^1.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "eslint": "^6.3.0"
+  }
+}
