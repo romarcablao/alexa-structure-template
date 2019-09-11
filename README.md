@@ -26,7 +26,7 @@ How I structure my custom Alexa skill
 
   ```
 
-If user call upon the specific intents, it will be mapped to the intentd handler to process specific activity/task.From the code above [GetTaskIntentHandler], what the handler will do is to call a function [getTask()] which resides on the core function folder, query from your source and respond through speech with data returned by the function.
+If user call upon the specific intents, it will be mapped to the intent handler to process specific activity/task.From the code above [GetTaskIntentHandler], what the handler will do is to call a function [getTask()] which resides on the core function folder, query from your source and respond through speech with data returned by the function.
 
 ---
 [Romar Cablao](https://www.linkedin.com/in/romarcablao) | <romarcablao@gmail.com>
