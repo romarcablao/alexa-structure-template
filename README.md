@@ -1,6 +1,9 @@
 # alexa-structure-template
 How I structure my custom Alexa skill
 
+[![GitHub](https://img.shields.io/badge/GitHub-romarcablao-lightgrey)](https://github.com/romarcablao)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-romarcablao-blue)](https://linkedin.com/in/romarcablao)
+
 ## Structure
 1. Core - handles functions, queries or database connection.
 2. Intents - handles specific Alexa Intent Handlers.
